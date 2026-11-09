@@ -1,23 +1,80 @@
 {
-  "fetched": "2026-11-06",
+  "fetched": "2026-11-09",
   "media": [
+    {
+      "id": "17919189783467833",
+      "caption": "Impressum veraltet, Datenschutz unklar: Das ist einer der häufigsten Fehler auf alten Vereinsseiten. Alter Vorstand, alte Adresse, toter Link. Fällt kaum jemandem auf, bis es zum Problem wird.\n\nMit einer modernen Seite und einem CMS stehen die Pflichtangaben an einer Stelle und sind in Minuten aktualisiert. Ohne Webmaster, ohne Wartezeit.\n\nWie steht deine Seite da? Kommentiere „CHECK“ und du bekommst deinen kostenlosen Website-Check.\n\n#website #webdesign #verein #vereinswebsite #lokalesunternehmen #kiel #schleswigholstein #impressum #datenschutz #cms #webentwickler #freelancer #mickihde",
+      "comments_count": 0,
+      "like_count": 6,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/Dfg2lnrDFc3/",
+      "timestamp": "2026-11-09T08:00:36+0000",
+      "insights": {
+        "views": 32,
+        "reach": 14,
+        "saved": 0,
+        "shares": 0,
+        "likes": 6,
+        "comments": 0,
+        "total_interactions": 8
+      }
+    },
+    {
+      "id": "17865717006696112",
+      "caption": "Secrets. Sauber getrennt.\n\nTokens und Projekt-IDs im Repo sind der schnellste Weg zum Leak. In der Agency in a Box hat jede Kundenseite eigene Variablen, nichts davon landet in Git. Vercel trennt Development, Preview und Production. Das Core Package liest alles zentral über feste Variablennamen. Neuer Kunde heißt: Sanity-Projekt anlegen, Variablen setzen, deployen.\n\nTemplate, Core Package, Sanity, Vercel. Die ganze Lösung.\n\nKommentiere „BOX“ und ich schicke dir mehr Infos.\n\n#agencyinabox #nextjs #vercel #sanity #npm #freelancer #webagentur #workflow #webentwicklung #mickihde",
+      "comments_count": 0,
+      "like_count": 2,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DfeR0t3iJUZ/",
+      "timestamp": "2026-11-08T08:00:52+0000",
+      "insights": {
+        "views": 45,
+        "reach": 21,
+        "saved": 0,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 3
+      }
+    },
+    {
+      "id": "18105764720023168",
+      "caption": "Der Webmaster ist weg. Und mit ihm alle Zugänge.\n\nIn vielen Vereinen, Schulen und Betrieben weiß genau eine Person, wie die Website funktioniert. Zieht sie weg oder hat keine Zeit mehr, bleibt die Seite stehen. Mit veralteten Terminen, jahrelang.\n\nMit einem CMS pflegt Texte und Termine, wer gerade Zeit hat. Ohne Code. Und die Zugänge gehören euch, nicht einer einzelnen Person.\n\nWie steht eure Seite da? Kommentiere „CHECK“ und ich schaue sie mir kostenlos an.\n\n#website #webentwicklung #verein #lokaleunternehmen #cms #kiel #schleswigholstein #webdesign",
+      "comments_count": 0,
+      "like_count": 6,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/Dfbs-u1jPpv/",
+      "timestamp": "2026-11-07T08:00:27+0000",
+      "insights": {
+        "views": 78,
+        "reach": 41,
+        "saved": 0,
+        "shares": 0,
+        "likes": 6,
+        "comments": 0,
+        "total_interactions": 7
+      }
+    },
     {
       "id": "18111879671246398",
       "caption": "Übergabe. Ein Login. 🔑\n\nKein FTP, kein Server-Zugang, kein Backend-Dschungel: Der Kunde bekommt nur sein vorkonfiguriertes Sanity Studio. Repo, Vercel-Projekt und Core Package bleiben bei dir, Updates laufen per npm weiter, und jeder Schritt der Übergabe ist im Workflow festgelegt.\n\nDas ist die Übergabe in der Lösung “Agency in a Box”.\n\n👉 Kommentiere “BOX” und hol dir Template, Core Package und Workflow.\n\n#agencyinabox #nextjs #sanitycms #vercel #npm #freelancer #webagentur #webentwicklung #workflow",
       "comments_count": 0,
-      "like_count": 3,
+      "like_count": 7,
       "media_product_type": "FEED",
       "media_type": "CAROUSEL_ALBUM",
       "permalink": "https://www.instagram.com/p/DfZIN_tiiSS/",
       "timestamp": "2026-11-06T08:00:45+0000",
       "insights": {
-        "views": 16,
-        "reach": 6,
+        "views": 66,
+        "reach": 32,
         "saved": 0,
         "shares": 0,
-        "likes": 3,
+        "likes": 7,
         "comments": 0,
-        "total_interactions": 3
+        "total_interactions": 8
       }
     },
     {
@@ -30,8 +87,8 @@
       "permalink": "https://www.instagram.com/p/DfWjXJqH-76/",
       "timestamp": "2026-11-05T08:00:12+0000",
       "insights": {
-        "views": 48,
-        "reach": 22,
+        "views": 67,
+        "reach": 30,
         "saved": 0,
         "shares": 0,
         "likes": 8,
@@ -49,8 +106,8 @@
       "permalink": "https://www.instagram.com/p/DfT-kjDDmsS/",
       "timestamp": "2026-11-04T08:00:14+0000",
       "insights": {
-        "views": 64,
-        "reach": 33,
+        "views": 75,
+        "reach": 39,
         "saved": 0,
         "shares": 0,
         "likes": 8,
@@ -68,8 +125,8 @@
       "permalink": "https://www.instagram.com/p/DfRZx7LjvBt/",
       "timestamp": "2026-11-03T08:00:16+0000",
       "insights": {
-        "views": 81,
-        "reach": 38,
+        "views": 97,
+        "reach": 45,
         "saved": 0,
         "shares": 0,
         "likes": 7,
@@ -87,8 +144,8 @@
       "permalink": "https://www.instagram.com/p/DfO1F60j_5n/",
       "timestamp": "2026-11-02T08:01:13+0000",
       "insights": {
-        "views": 102,
-        "reach": 47,
+        "views": 110,
+        "reach": 51,
         "saved": 0,
         "shares": 0,
         "likes": 11,
@@ -100,38 +157,38 @@
       "id": "17906472477354571",
       "caption": "Ihre Website ist mobil unbrauchbar? Dann verlieren Sie Besucher, bevor die überhaupt wissen, was Ihr Verein oder Ihr Betrieb zu bieten hat. 📱\nWinzige Schrift, versteckte Menüs, Termine nach fünf Klicks: Die meisten Besucher kommen heute mit dem Handy, und Google bewertet die mobile Version zuerst.\nDie gute Nachricht: Eine moderne Website passt sich jedem Bildschirm an, und mit einem CMS pflegen Sie Inhalte selbst.\nWie sieht Ihre Seite auf dem Handy aus? Kommentieren Sie „CHECK“ und Sie bekommen Ihren kostenlosen Website-Check.\n#website #webentwicklung #verein #vereinsseite #lokaleunternehmen #kiel #schleswigholstein #webdesign #mobilefirst",
       "comments_count": 0,
-      "like_count": 8,
+      "like_count": 9,
       "media_product_type": "FEED",
       "media_type": "CAROUSEL_ALBUM",
       "permalink": "https://www.instagram.com/p/DfMQPoIiVqj/",
       "timestamp": "2026-11-01T08:00:45+0000",
       "insights": {
-        "views": 104,
-        "reach": 48,
+        "views": 110,
+        "reach": 51,
         "saved": 0,
         "shares": 0,
-        "likes": 8,
+        "likes": 9,
         "comments": 0,
-        "total_interactions": 10
+        "total_interactions": 11
       }
     },
     {
       "id": "18120120338277140",
       "caption": "Das ist die Lösung „Agency in a Box“.\n\nKommentiere „BOX“ und ich zeige dir mehr.\n\n#agencyinbox #nextjs #sanitycms #vercel #tailwindcss #npm #webentwicklung #freelancer #webagentur #workflow",
       "comments_count": 0,
-      "like_count": 9,
+      "like_count": 10,
       "media_product_type": "FEED",
       "media_type": "CAROUSEL_ALBUM",
       "permalink": "https://www.instagram.com/p/DfJren7D2J7/",
       "timestamp": "2026-10-31T08:01:00+0000",
       "insights": {
-        "views": 90,
-        "reach": 37,
+        "views": 95,
+        "reach": 39,
         "saved": 0,
         "shares": 0,
-        "likes": 9,
+        "likes": 10,
         "comments": 0,
-        "total_interactions": 10
+        "total_interactions": 11
       }
     },
     {
@@ -144,8 +201,8 @@
       "permalink": "https://www.instagram.com/p/DfHGrZ3D14t/",
       "timestamp": "2026-10-30T08:00:57+0000",
       "insights": {
-        "views": 84,
-        "reach": 44,
+        "views": 91,
+        "reach": 48,
         "saved": 0,
         "shares": 0,
         "likes": 10,
@@ -163,8 +220,8 @@
       "permalink": "https://www.instagram.com/p/DfEh3Iqjcg_/",
       "timestamp": "2026-10-29T08:00:46+0000",
       "insights": {
-        "views": 155,
-        "reach": 75,
+        "views": 161,
+        "reach": 77,
         "saved": 0,
         "shares": 0,
         "likes": 14,
@@ -182,8 +239,8 @@
       "permalink": "https://www.instagram.com/p/DfB9CmjjR07/",
       "timestamp": "2026-10-28T08:00:32+0000",
       "insights": {
-        "views": 110,
-        "reach": 50,
+        "views": 112,
+        "reach": 51,
         "saved": 0,
         "shares": 0,
         "likes": 12,
@@ -201,8 +258,8 @@
       "permalink": "https://www.instagram.com/p/De_YPKtkrWX/",
       "timestamp": "2026-10-27T08:00:27+0000",
       "insights": {
-        "views": 105,
-        "reach": 48,
+        "views": 109,
+        "reach": 49,
         "saved": 0,
         "shares": 0,
         "likes": 14,
@@ -220,8 +277,8 @@
       "permalink": "https://www.instagram.com/p/De8zgEaAWKM/",
       "timestamp": "2026-10-26T08:00:58+0000",
       "insights": {
-        "views": 145,
-        "reach": 64,
+        "views": 153,
+        "reach": 67,
         "saved": 0,
         "shares": 0,
         "likes": 16,
@@ -239,7 +296,7 @@
       "permalink": "https://www.instagram.com/p/De6Oq8Igls8/",
       "timestamp": "2026-10-25T08:00:40+0000",
       "insights": {
-        "views": 185,
+        "views": 186,
         "reach": 77,
         "saved": 0,
         "shares": 0,
@@ -258,7 +315,7 @@
       "permalink": "https://www.instagram.com/p/De3jDBqjETm/",
       "timestamp": "2026-10-24T07:01:00+0000",
       "insights": {
-        "views": 145,
+        "views": 146,
         "reach": 67,
         "saved": 0,
         "shares": 0,
@@ -296,8 +353,8 @@
       "permalink": "https://www.instagram.com/p/DeyZdWqCX73/",
       "timestamp": "2026-10-22T07:01:00+0000",
       "insights": {
-        "views": 143,
-        "reach": 72,
+        "views": 144,
+        "reach": 73,
         "saved": 0,
         "shares": 0,
         "likes": 20,
@@ -315,8 +372,8 @@
       "permalink": "https://www.instagram.com/p/DewIlNljM-I/",
       "timestamp": "2026-10-21T09:55:03+0000",
       "insights": {
-        "views": 229,
-        "reach": 105,
+        "views": 230,
+        "reach": 106,
         "saved": 0,
         "shares": 0,
         "likes": 25,
@@ -334,8 +391,8 @@
       "permalink": "https://www.instagram.com/p/DetcnN-iH7g/",
       "timestamp": "2026-10-20T08:52:22+0000",
       "insights": {
-        "views": 204,
-        "reach": 92,
+        "views": 206,
+        "reach": 94,
         "saved": 0,
         "shares": 0,
         "likes": 22,
@@ -353,8 +410,8 @@
       "permalink": "https://www.instagram.com/p/DeoOD0sCKy9/",
       "timestamp": "2026-10-18T08:09:00+0000",
       "insights": {
-        "views": 193,
-        "reach": 100,
+        "views": 195,
+        "reach": 102,
         "saved": 0,
         "shares": 0,
         "likes": 19,
