@@ -1,18 +1,37 @@
 {
-  "fetched": "2026-11-09",
+  "fetched": "2026-11-16",
   "media": [
     {
-      "id": "17919189783467833",
-      "caption": "Impressum veraltet, Datenschutz unklar: Das ist einer der häufigsten Fehler auf alten Vereinsseiten. Alter Vorstand, alte Adresse, toter Link. Fällt kaum jemandem auf, bis es zum Problem wird.\n\nMit einer modernen Seite und einem CMS stehen die Pflichtangaben an einer Stelle und sind in Minuten aktualisiert. Ohne Webmaster, ohne Wartezeit.\n\nWie steht deine Seite da? Kommentiere „CHECK“ und du bekommst deinen kostenlosen Website-Check.\n\n#website #webdesign #verein #vereinswebsite #lokalesunternehmen #kiel #schleswigholstein #impressum #datenschutz #cms #webentwickler #freelancer #mickihde",
+      "id": "17953691961301987",
+      "caption": "Neue Kundenseite? Nie wieder bei null anfangen. ❌\nJede Seite startet aus demselben Template. Die Logik kommt per npm aus dem Core Package, Sanity liefert das CMS, das Branding steckt in der Config, Vercel baut bei jedem Push.\nDas ist die Lösung \"Agency in a Box\". Kommentiere \"BOX\", wenn du wissen willst, wie sie funktioniert.\n#agencyinabox #webentwicklung #freelancer #agentur #workflow #mickihde",
+      "comments_count": 0,
+      "like_count": 4,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/Dfy4NJdJRZn/",
+      "timestamp": "2026-11-16T08:01:04+0000",
+      "insights": {
+        "views": 36,
+        "reach": 12,
+        "saved": 0,
+        "shares": 0,
+        "likes": 4,
+        "comments": 0,
+        "total_interactions": 4
+      }
+    },
+    {
+      "id": "18650127538007921",
+      "caption": "Nicht jeder sieht deine Website so wie du. 👓\nÄltere Mitglieder, Sonnenlicht auf dem Handy, schwacher Kontrast: Wer nichts lesen kann, ist schnell wieder weg. Eine Seite, die für alle funktioniert, wird öfter gelesen, geteilt und gefunden.\nWie lesbar ist deine Seite? Kommentiere \"CHECK\" und du bekommst den kostenlosen Website-Check.\n#website #webdesign #verein #schule #lokaleunternehmen #barrierefrei #kiel #schleswigholstein #webentwickler #mickihde",
       "comments_count": 0,
       "like_count": 6,
       "media_product_type": "FEED",
       "media_type": "CAROUSEL_ALBUM",
-      "permalink": "https://www.instagram.com/p/Dfg2lnrDFc3/",
-      "timestamp": "2026-11-09T08:00:36+0000",
+      "permalink": "https://www.instagram.com/p/DfwTU6hskaf/",
+      "timestamp": "2026-11-15T08:00:20+0000",
       "insights": {
-        "views": 32,
-        "reach": 14,
+        "views": 56,
+        "reach": 25,
         "saved": 0,
         "shares": 0,
         "likes": 6,
@@ -21,55 +40,36 @@
       }
     },
     {
-      "id": "17865717006696112",
-      "caption": "Secrets. Sauber getrennt.\n\nTokens und Projekt-IDs im Repo sind der schnellste Weg zum Leak. In der Agency in a Box hat jede Kundenseite eigene Variablen, nichts davon landet in Git. Vercel trennt Development, Preview und Production. Das Core Package liest alles zentral über feste Variablennamen. Neuer Kunde heißt: Sanity-Projekt anlegen, Variablen setzen, deployen.\n\nTemplate, Core Package, Sanity, Vercel. Die ganze Lösung.\n\nKommentiere „BOX“ und ich schicke dir mehr Infos.\n\n#agencyinabox #nextjs #vercel #sanity #npm #freelancer #webagentur #workflow #webentwicklung #mickihde",
+      "id": "18037105967668435",
+      "caption": "Publish. Live in Sekunden. ⚡\n\nDer Redakteur klickt im Sanity Studio auf Publish. Ein Webhook ruft eine Route in Next.js auf, und revalidateTag lädt nur die betroffenen Seiten neu. Kein kompletter Build, kein Deploy.\n\nRoute und Handler stecken im Core Package. Du baust das nicht pro Kundenseite nach, und der Kunde sieht seine Änderung sofort live.\n\nDas ist ein Teil von Agency in a Box, der Lösung für Freelancer und Agenturen. Kommentiere „BOX“ für mehr Infos.\n\n#agencyinabox  #npm #webentwicklung #freelancer #agentur #workflow #webdev",
       "comments_count": 0,
-      "like_count": 2,
+      "like_count": 5,
       "media_product_type": "FEED",
       "media_type": "CAROUSEL_ALBUM",
-      "permalink": "https://www.instagram.com/p/DfeR0t3iJUZ/",
-      "timestamp": "2026-11-08T08:00:52+0000",
+      "permalink": "https://www.instagram.com/p/DftugzoB51M/",
+      "timestamp": "2026-11-14T08:00:10+0000",
       "insights": {
-        "views": 45,
-        "reach": 21,
+        "views": 62,
+        "reach": 27,
         "saved": 0,
         "shares": 0,
-        "likes": 2,
-        "comments": 0,
-        "total_interactions": 3
-      }
-    },
-    {
-      "id": "18105764720023168",
-      "caption": "Der Webmaster ist weg. Und mit ihm alle Zugänge.\n\nIn vielen Vereinen, Schulen und Betrieben weiß genau eine Person, wie die Website funktioniert. Zieht sie weg oder hat keine Zeit mehr, bleibt die Seite stehen. Mit veralteten Terminen, jahrelang.\n\nMit einem CMS pflegt Texte und Termine, wer gerade Zeit hat. Ohne Code. Und die Zugänge gehören euch, nicht einer einzelnen Person.\n\nWie steht eure Seite da? Kommentiere „CHECK“ und ich schaue sie mir kostenlos an.\n\n#website #webentwicklung #verein #lokaleunternehmen #cms #kiel #schleswigholstein #webdesign",
-      "comments_count": 0,
-      "like_count": 6,
-      "media_product_type": "FEED",
-      "media_type": "CAROUSEL_ALBUM",
-      "permalink": "https://www.instagram.com/p/Dfbs-u1jPpv/",
-      "timestamp": "2026-11-07T08:00:27+0000",
-      "insights": {
-        "views": 78,
-        "reach": 41,
-        "saved": 0,
-        "shares": 0,
-        "likes": 6,
+        "likes": 5,
         "comments": 0,
         "total_interactions": 7
       }
     },
     {
-      "id": "18111879671246398",
-      "caption": "Übergabe. Ein Login. 🔑\n\nKein FTP, kein Server-Zugang, kein Backend-Dschungel: Der Kunde bekommt nur sein vorkonfiguriertes Sanity Studio. Repo, Vercel-Projekt und Core Package bleiben bei dir, Updates laufen per npm weiter, und jeder Schritt der Übergabe ist im Workflow festgelegt.\n\nDas ist die Übergabe in der Lösung “Agency in a Box”.\n\n👉 Kommentiere “BOX” und hol dir Template, Core Package und Workflow.\n\n#agencyinabox #nextjs #sanitycms #vercel #npm #freelancer #webagentur #webentwicklung #workflow",
+      "id": "17911272156572713",
+      "caption": "Ungepflegt ist unsicher. 🔒\n\nEine Vereinsseite, die seit Jahren nicht aktualisiert wurde, ist mehr als ein Schönheitsfehler. Der Browser warnt bei fehlendem HTTPS, alte Systeme sind ein Einfallstor, und Google rutscht solche Seiten nach unten.\n\nDabei lesen Eltern, Sponsoren und neue Mitglieder zuerst online. Eine moderne Website wird laufend aktualisiert, gehostet und gesichert, ohne dass sich jemand im Verein darum kümmern muss.\n\nWie sicher ist eure Seite? Kommentiere „CHECK“ und du bekommst den kostenlosen Website-Check.\n\n#website #webentwicklung #verein #vereinsseite #websiteerstellen #kiel #schleswigholstein #webdesign #localbusiness #websitecheck",
       "comments_count": 0,
       "like_count": 7,
       "media_product_type": "FEED",
       "media_type": "CAROUSEL_ALBUM",
-      "permalink": "https://www.instagram.com/p/DfZIN_tiiSS/",
-      "timestamp": "2026-11-06T08:00:45+0000",
+      "permalink": "https://www.instagram.com/p/DfrJutup5he/",
+      "timestamp": "2026-11-13T08:00:17+0000",
       "insights": {
-        "views": 66,
-        "reach": 32,
+        "views": 60,
+        "reach": 26,
         "saved": 0,
         "shares": 0,
         "likes": 7,
@@ -78,17 +78,17 @@
       }
     },
     {
-      "id": "18114421472131505",
-      "caption": "Wer wartet, geht. ⏱️\n\nAuf dem Handy entscheidet sich in wenigen Sekunden, ob jemand auf deiner Seite bleibt. Zu große Bilder, alter Ballast und veraltete Technik machen viele Vereins- und Firmenseiten langsam. Und Google merkt das: Lokal verlierst du Sichtbarkeit und Anfragen.\n\nEine moderne Website lädt schnell, auf jedem Gerät, und du musst dich nicht darum kümmern.\n\n👉 Kommentiere “CHECK” und ich schaue mir deine Seite kostenlos an.\n\n#website #webentwicklung #verein  #kiel  #webdesign  #lokalunternehmen #freelancer",
+      "id": "18069388958671770",
+      "caption": "Anpassen. Ohne Fork. 🧩\n\nDer Kunde will eine Sonderlösung, und du kopierst den Code? Ab da bekommt diese Seite keine Updates mehr.\n\nMit Agency in a Box ersetzt du einzelne Komponenten per Override, steuerst Header, Footer und Sektionen über Config und Props. Der Core bleibt unangetastet. npm update, und jede Kundenseite zieht nach, deine Anpassungen bleiben.\n\nEin Core. Viele Kunden. Individuelle Seiten, ein gepflegter Kern.\n\nDu willst die Lösung kennenlernen? Kommentiere „BOX“.\n\n#agencyinabox #nextjs #npm #sanitycms #vercel #webentwicklung #freelancer #webagentur #workflow #template",
       "comments_count": 0,
       "like_count": 8,
       "media_product_type": "FEED",
       "media_type": "CAROUSEL_ALBUM",
-      "permalink": "https://www.instagram.com/p/DfWjXJqH-76/",
-      "timestamp": "2026-11-05T08:00:12+0000",
+      "permalink": "https://www.instagram.com/p/Dfok-_vj4aW/",
+      "timestamp": "2026-11-12T08:00:42+0000",
       "insights": {
-        "views": 67,
-        "reach": 30,
+        "views": 50,
+        "reach": 25,
         "saved": 0,
         "shares": 0,
         "likes": 8,
@@ -97,17 +97,169 @@
       }
     },
     {
+      "id": "18074246960788220",
+      "caption": "Kein Kontakt. Keine Anfrage. 📩\n\nViele Vereins- und Firmenseiten verlieren Anfragen, bevor sie entstehen: Die Nummer versteckt im Impressum, die Mail nur als Bild, die Beitrittserklärung als PDF zum Ausdrucken. Am Handy kaum bedienbar, der Ansprechpartner veraltet.\n\nEin klarer Weg zur Anfrage macht den Unterschied: ein Button, ein Formular, eine Nummer zum Antippen. Und mit einem CMS pflegt ihr Namen und Infos selbst.\n\nWie steht eure Seite da? Kommentiere „CHECK“ und ich schaue sie mir kostenlos an.\n\n#website #webdesign #verein #vereinsarbeit #lokalesbusiness #kiel #schleswigholstein #cms #webentwicklung #freelancer",
+      "comments_count": 0,
+      "like_count": 7,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DfmALd2jDOC/",
+      "timestamp": "2026-11-11T08:00:37+0000",
+      "insights": {
+        "views": 75,
+        "reach": 29,
+        "saved": 0,
+        "shares": 0,
+        "likes": 7,
+        "comments": 0,
+        "total_interactions": 8
+      }
+    },
+    {
+      "id": "18115646129605487",
+      "caption": "Ein Release geht schief. Und die Kundenseite? Ist in Sekunden wieder wie vorher.\n\nVercel speichert jedes Deployment. Das Core Package hängt pro Kundenseite an einer festen Version. Und der Content liegt in Sanity, nicht im Deployment. Ein Rollback löscht nichts.\n\nDas ist der Workflow in der Lösung „Agency in a Box“. Kommentiere „BOX“ und ich melde mich bei dir.\n\n#agencyinabox #npm #webentwicklung #freelancer #agentur #workflow #headlesscms #typescript #webdev #mickihde",
+      "comments_count": 0,
+      "like_count": 7,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DfjbXIhCeTJ/",
+      "timestamp": "2026-11-10T08:00:25+0000",
+      "insights": {
+        "views": 81,
+        "reach": 36,
+        "saved": 0,
+        "shares": 0,
+        "likes": 7,
+        "comments": 0,
+        "total_interactions": 8
+      }
+    },
+    {
+      "id": "17919189783467833",
+      "caption": "Impressum veraltet, Datenschutz unklar: Das ist einer der häufigsten Fehler auf alten Vereinsseiten. Alter Vorstand, alte Adresse, toter Link. Fällt kaum jemandem auf, bis es zum Problem wird.\n\nMit einer modernen Seite und einem CMS stehen die Pflichtangaben an einer Stelle und sind in Minuten aktualisiert. Ohne Webmaster, ohne Wartezeit.\n\nWie steht deine Seite da? Kommentiere „CHECK“ und du bekommst deinen kostenlosen Website-Check.\n\n#website #webdesign #verein #vereinswebsite #lokalesunternehmen #kiel #schleswigholstein #impressum #datenschutz #cms #webentwickler #freelancer #mickihde",
+      "comments_count": 0,
+      "like_count": 7,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/Dfg2lnrDFc3/",
+      "timestamp": "2026-11-09T08:00:36+0000",
+      "insights": {
+        "views": 82,
+        "reach": 40,
+        "saved": 0,
+        "shares": 0,
+        "likes": 7,
+        "comments": 0,
+        "total_interactions": 9
+      }
+    },
+    {
+      "id": "17865717006696112",
+      "caption": "Secrets. Sauber getrennt.\n\nTokens und Projekt-IDs im Repo sind der schnellste Weg zum Leak. In der Agency in a Box hat jede Kundenseite eigene Variablen, nichts davon landet in Git. Vercel trennt Development, Preview und Production. Das Core Package liest alles zentral über feste Variablennamen. Neuer Kunde heißt: Sanity-Projekt anlegen, Variablen setzen, deployen.\n\nTemplate, Core Package, Sanity, Vercel. Die ganze Lösung.\n\nKommentiere „BOX“ und ich schicke dir mehr Infos.\n\n#agencyinabox #nextjs #vercel #sanity #npm #freelancer #webagentur #workflow #webentwicklung #mickihde",
+      "comments_count": 0,
+      "like_count": 5,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DfeR0t3iJUZ/",
+      "timestamp": "2026-11-08T08:00:52+0000",
+      "insights": {
+        "views": 58,
+        "reach": 27,
+        "saved": 0,
+        "shares": 0,
+        "likes": 5,
+        "comments": 0,
+        "total_interactions": 6
+      }
+    },
+    {
+      "id": "18105764720023168",
+      "caption": "Der Webmaster ist weg. Und mit ihm alle Zugänge.\n\nIn vielen Vereinen, Schulen und Betrieben weiß genau eine Person, wie die Website funktioniert. Zieht sie weg oder hat keine Zeit mehr, bleibt die Seite stehen. Mit veralteten Terminen, jahrelang.\n\nMit einem CMS pflegt Texte und Termine, wer gerade Zeit hat. Ohne Code. Und die Zugänge gehören euch, nicht einer einzelnen Person.\n\nWie steht eure Seite da? Kommentiere „CHECK“ und ich schaue sie mir kostenlos an.\n\n#website #webentwicklung #verein #lokaleunternehmen #cms #kiel #schleswigholstein #webdesign",
+      "comments_count": 0,
+      "like_count": 9,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/Dfbs-u1jPpv/",
+      "timestamp": "2026-11-07T08:00:27+0000",
+      "insights": {
+        "views": 93,
+        "reach": 49,
+        "saved": 0,
+        "shares": 0,
+        "likes": 9,
+        "comments": 0,
+        "total_interactions": 11
+      }
+    },
+    {
+      "id": "18111879671246398",
+      "caption": "Übergabe. Ein Login. 🔑\n\nKein FTP, kein Server-Zugang, kein Backend-Dschungel: Der Kunde bekommt nur sein vorkonfiguriertes Sanity Studio. Repo, Vercel-Projekt und Core Package bleiben bei dir, Updates laufen per npm weiter, und jeder Schritt der Übergabe ist im Workflow festgelegt.\n\nDas ist die Übergabe in der Lösung “Agency in a Box”.\n\n👉 Kommentiere “BOX” und hol dir Template, Core Package und Workflow.\n\n#agencyinabox #nextjs #sanitycms #vercel #npm #freelancer #webagentur #webentwicklung #workflow",
+      "comments_count": 0,
+      "like_count": 9,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DfZIN_tiiSS/",
+      "timestamp": "2026-11-06T08:00:45+0000",
+      "insights": {
+        "views": 76,
+        "reach": 39,
+        "saved": 0,
+        "shares": 0,
+        "likes": 9,
+        "comments": 0,
+        "total_interactions": 10
+      }
+    },
+    {
+      "id": "18114421472131505",
+      "caption": "Wer wartet, geht. ⏱️\n\nAuf dem Handy entscheidet sich in wenigen Sekunden, ob jemand auf deiner Seite bleibt. Zu große Bilder, alter Ballast und veraltete Technik machen viele Vereins- und Firmenseiten langsam. Und Google merkt das: Lokal verlierst du Sichtbarkeit und Anfragen.\n\nEine moderne Website lädt schnell, auf jedem Gerät, und du musst dich nicht darum kümmern.\n\n👉 Kommentiere “CHECK” und ich schaue mir deine Seite kostenlos an.\n\n#website #webentwicklung #verein  #kiel  #webdesign  #lokalunternehmen #freelancer",
+      "comments_count": 0,
+      "like_count": 9,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DfWjXJqH-76/",
+      "timestamp": "2026-11-05T08:00:12+0000",
+      "insights": {
+        "views": 81,
+        "reach": 36,
+        "saved": 0,
+        "shares": 0,
+        "likes": 9,
+        "comments": 0,
+        "total_interactions": 10
+      }
+    },
+    {
       "id": "18073101332785123",
       "caption": "Sanity Studio, vorkonfiguriert. ⚙️\n\nBei Agency in a Box startet jedes Kundenprojekt nicht bei null. Schemas und Studio-Struktur leben im npm Core Package, das Template bindet sie nur ein. Pro Kunde passt du nur noch an: Felder erweitern, Typen ausblenden, Reihenfolge ändern.\n\nNext.js lädt die Inhalte per fertigen Queries, auf Vercel ist alles live, sobald der Content veröffentlicht ist. Und die Übergabe an den Kunden ist aufgeräumt: nur die Felder, die er braucht.\n\nDie Lösung sehen? Kommentiere “BOX” und ich schicke dir die Details.\n\n#agencyinabox #nextjs #sanity #sanity #vercel #npm #webentwicklung #freelancer #agentur #workflow #template",
       "comments_count": 0,
-      "like_count": 8,
+      "like_count": 10,
       "media_product_type": "FEED",
       "media_type": "CAROUSEL_ALBUM",
       "permalink": "https://www.instagram.com/p/DfT-kjDDmsS/",
       "timestamp": "2026-11-04T08:00:14+0000",
       "insights": {
-        "views": 75,
-        "reach": 39,
+        "views": 82,
+        "reach": 41,
+        "saved": 0,
+        "shares": 0,
+        "likes": 10,
+        "comments": 0,
+        "total_interactions": 13
+      }
+    },
+    {
+      "id": "17963196614998830",
+      "caption": "Steht auf eurer Website noch ein Termin von 2024? 👀\n\nVeraltete Infos wirken wie eine geschlossene Tür. Neue Mitglieder und Kunden schauen zuerst online. Wenn sie dort alte Daten oder falsche Öffnungszeiten finden, springen sie ab.\n\nMit einem CMS pflegt ihr Texte und Termine selbst, in Minuten. Und eine aktuelle Seite wird bei Google vor Ort besser gefunden.\n\nWie aktuell ist eure Website wirklich? Kommentiere “CHECK” und ich schaue kostenlos drauf.\n\n#website #webentwicklung #verein #lokaleunternehmen #kiel  #cms",
+      "comments_count": 0,
+      "like_count": 8,
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DfRZx7LjvBt/",
+      "timestamp": "2026-11-03T08:00:16+0000",
+      "insights": {
+        "views": 103,
+        "reach": 47,
         "saved": 0,
         "shares": 0,
         "likes": 8,
@@ -116,41 +268,22 @@
       }
     },
     {
-      "id": "17963196614998830",
-      "caption": "Steht auf eurer Website noch ein Termin von 2024? 👀\n\nVeraltete Infos wirken wie eine geschlossene Tür. Neue Mitglieder und Kunden schauen zuerst online. Wenn sie dort alte Daten oder falsche Öffnungszeiten finden, springen sie ab.\n\nMit einem CMS pflegt ihr Texte und Termine selbst, in Minuten. Und eine aktuelle Seite wird bei Google vor Ort besser gefunden.\n\nWie aktuell ist eure Website wirklich? Kommentiere “CHECK” und ich schaue kostenlos drauf.\n\n#website #webentwicklung #verein #lokaleunternehmen #kiel  #cms",
-      "comments_count": 0,
-      "like_count": 7,
-      "media_product_type": "FEED",
-      "media_type": "CAROUSEL_ALBUM",
-      "permalink": "https://www.instagram.com/p/DfRZx7LjvBt/",
-      "timestamp": "2026-11-03T08:00:16+0000",
-      "insights": {
-        "views": 97,
-        "reach": 45,
-        "saved": 0,
-        "shares": 0,
-        "likes": 7,
-        "comments": 0,
-        "total_interactions": 9
-      }
-    },
-    {
       "id": "17991385140064426",
       "caption": "Jede Änderung zuerst als Preview. Das ist der Workflow in der Agency in a Box. 🚀\nVercel baut für jeden Branch eine eigene URL. Dein Kunde klickt, bevor es live geht. Core-Updates testest du im Branch, Sanity-Test-Dataset und Production sind sauber getrennt, und ein Rollback ist ein Klick.\nDas komplette Setup steckt in der Lösung: Template, npm Core Package, Sanity CMS, Next.js und Vercel, fertig konfiguriert.\nKommentiere „BOX“ und ich schicke dir die Infos.\n#agencyinabox #npm #webdev #freelancer #webagentur #workflow #headlesscms #typescript",
       "comments_count": 0,
-      "like_count": 11,
+      "like_count": 12,
       "media_product_type": "FEED",
       "media_type": "CAROUSEL_ALBUM",
       "permalink": "https://www.instagram.com/p/DfO1F60j_5n/",
       "timestamp": "2026-11-02T08:01:13+0000",
       "insights": {
-        "views": 110,
-        "reach": 51,
+        "views": 116,
+        "reach": 53,
         "saved": 0,
         "shares": 0,
-        "likes": 11,
+        "likes": 12,
         "comments": 0,
-        "total_interactions": 13
+        "total_interactions": 15
       }
     },
     {
@@ -163,8 +296,8 @@
       "permalink": "https://www.instagram.com/p/DfMQPoIiVqj/",
       "timestamp": "2026-11-01T08:00:45+0000",
       "insights": {
-        "views": 110,
-        "reach": 51,
+        "views": 118,
+        "reach": 56,
         "saved": 0,
         "shares": 0,
         "likes": 9,
@@ -182,8 +315,8 @@
       "permalink": "https://www.instagram.com/p/DfJren7D2J7/",
       "timestamp": "2026-10-31T08:01:00+0000",
       "insights": {
-        "views": 95,
-        "reach": 39,
+        "views": 96,
+        "reach": 40,
         "saved": 0,
         "shares": 0,
         "likes": 10,
@@ -239,8 +372,8 @@
       "permalink": "https://www.instagram.com/p/DfB9CmjjR07/",
       "timestamp": "2026-10-28T08:00:32+0000",
       "insights": {
-        "views": 112,
-        "reach": 51,
+        "views": 114,
+        "reach": 52,
         "saved": 0,
         "shares": 0,
         "likes": 12,
@@ -296,8 +429,8 @@
       "permalink": "https://www.instagram.com/p/De6Oq8Igls8/",
       "timestamp": "2026-10-25T08:00:40+0000",
       "insights": {
-        "views": 186,
-        "reach": 77,
+        "views": 189,
+        "reach": 78,
         "saved": 0,
         "shares": 0,
         "likes": 22,
@@ -315,8 +448,8 @@
       "permalink": "https://www.instagram.com/p/De3jDBqjETm/",
       "timestamp": "2026-10-24T07:01:00+0000",
       "insights": {
-        "views": 146,
-        "reach": 67,
+        "views": 148,
+        "reach": 69,
         "saved": 0,
         "shares": 0,
         "likes": 20,
@@ -334,8 +467,8 @@
       "permalink": "https://www.instagram.com/p/De0-MojF5GJ/",
       "timestamp": "2026-10-23T07:00:31+0000",
       "insights": {
-        "views": 250,
-        "reach": 117,
+        "views": 251,
+        "reach": 118,
         "saved": 0,
         "shares": 1,
         "likes": 27,
@@ -353,8 +486,8 @@
       "permalink": "https://www.instagram.com/p/DeyZdWqCX73/",
       "timestamp": "2026-10-22T07:01:00+0000",
       "insights": {
-        "views": 144,
-        "reach": 73,
+        "views": 145,
+        "reach": 74,
         "saved": 0,
         "shares": 0,
         "likes": 20,
