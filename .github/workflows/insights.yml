@@ -36,5 +36,8 @@ jobs:
             echo "Keine Aenderungen."
           else
             git commit -m "data: Instagram-Insights $(date -u +%F)"
-            git push
+            for i in 1 2 3; do
+              git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break
+              sleep 5
+            done
           fi

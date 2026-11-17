@@ -1,0 +1,70 @@
+name: Publish Instagram
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # alle 15 Min.; GitHub startet Crons oft einige Minuten spaeter
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Nur diesen queue-Eintrag bearbeiten (leer = alle faelligen)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Nur pruefen, nichts posten"
+        type: boolean
+        default: true
+      ignore_time:
+        description: "Eintrag sofort posten (nur zusammen mit id)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Faellige Posts veroeffentlichen
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ vars.IG_USER_ID }}
+          GRAPH_VERSION: ${{ vars.GRAPH_VERSION }}
+          INPUT_ID: ${{ inputs.id }}
+          INPUT_DRY: ${{ inputs.dry_run }}
+          INPUT_NOW: ${{ inputs.ignore_time }}
+        run: |
+          args=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            [ "$INPUT_DRY" = "true" ] && args="$args --dry-run"
+            [ -n "$INPUT_ID" ] && args="$args --id $INPUT_ID"
+            [ "$INPUT_NOW" = "true" ] && args="$args --ignore-time"
+          fi
+          python scripts/publish.py $args
+
+      - name: Status committen
+        if: always()
+        run: |
+          git config user.name "publish-bot"
+          git config user.email "publish-bot@users.noreply.github.com"
+          git add -A posted/ queue/
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen."
+          else
+            git commit -m "status: $(date -u +%F_%H%M)"
+            for i in 1 2 3; do
+              git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break
+              sleep 5
+            done
+          fi
