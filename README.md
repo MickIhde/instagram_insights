@@ -38,7 +38,21 @@ Das Repo muss public bleiben (Instagram holt die Bilder per raw.githubuserconten
 Einrichtung: Das Secret `IG_TOKEN` braucht zusaetzlich die Berechtigung `instagram_content_publish`.
 Test: Actions -> "Publish Instagram" -> Run workflow (zuerst mit `dry_run`).
 
-Sicherheitsnetze: Statusfile plus Caption-Abgleich gegen Doppelposts; Posts, die mehr als 6 Stunden
+Sicherheitsnetze: Statusfile plus Caption-Abgleich gegen Doppelposts; Posts, die mehr als 24 Stunden
 ueberfaellig sind, werden nicht mehr gepostet (roter Lauf = Mail von GitHub); Bilder werden vorab
 geprueft; technische Fehler werden bis zu 3 Mal wiederholt. Nach 14 Tagen werden nur die Bilder
 geloescht, `post.json` und Status bleiben fuer die Auswertung.
+
+### Puenktlich posten (externer Cron)
+
+GitHub startet geplante Workflows bei wenig genutzten Repos oft nur alle paar Stunden.
+Damit Posts um 09:00 rausgehen, startet ein externer Cron-Dienst (z.B. cron-job.org) den
+Workflow taeglich um 09:01 Berliner Zeit per API:
+
+- URL: `https://api.github.com/repos/MickIhde/instagram_insights/actions/workflows/publish.yml/dispatches`
+- Methode: `POST`
+- Header: `Authorization: Bearer <TOKEN>`, `Accept: application/vnd.github+json`, `X-GitHub-Api-Version: 2022-11-28`
+- Body: `{"ref":"main","inputs":{"dry_run":"false"}}` (wichtig: `dry_run` ist sonst `true`)
+- Token: Fine-grained Personal Access Token, nur dieses Repo, Berechtigung "Actions: Read and write"
+
+Der 15-Minuten-Cron bleibt als Reserve aktiv.

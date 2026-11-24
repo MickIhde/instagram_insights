@@ -47,7 +47,7 @@ REF = os.environ.get("GITHUB_SHA") or os.environ.get("BRANCH", "main")
 RAW_BASE = os.environ.get(
     "RAW_BASE", f"https://raw.githubusercontent.com/{REPO}/{REF}"
 ).rstrip("/")
-MAX_LATE = dt.timedelta(hours=float(os.environ.get("MAX_LATE_HOURS", "6")))
+MAX_LATE = dt.timedelta(hours=float(os.environ.get("MAX_LATE_HOURS", "24")))
 MAX_ATTEMPTS = int(os.environ.get("MAX_ATTEMPTS", "3"))
 PRUNE_DAYS = int(os.environ.get("PRUNE_DAYS", "14"))
 POLL_SECONDS = float(os.environ.get("POLL_SECONDS", "3"))
