@@ -114,7 +114,7 @@ hour = dt.timedelta(hours=1)
 
 entry(root, "due_carousel", "carousel", now - dt.timedelta(minutes=5), 4)
 entry(root, "future", "carousel", now + 3 * hour, 3, caption="Zukunft")
-entry(root, "old_missed", "carousel", now - 10 * hour, 3, caption="Zu alt")
+entry(root, "old_missed", "carousel", now - 30 * hour, 3, caption="Zu alt")
 entry(root, "bad_ratio", "carousel", now - dt.timedelta(minutes=5), 3, size=(1080, 1920), caption="Falsch")
 entry(root, "due_story", "story", now - dt.timedelta(minutes=1), 2)
 
