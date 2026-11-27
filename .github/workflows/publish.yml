@@ -5,6 +5,10 @@ on:
     - cron: "*/15 * * * *"   # alle 15 Min.; GitHub startet Crons oft einige Minuten spaeter
   workflow_dispatch:
     inputs:
+      account:
+        description: "Nur diesen Account bearbeiten (leer = alle, z.B. agentur oder safeslot)"
+        required: false
+        default: ""
       id:
         description: "Nur diesen queue-Eintrag bearbeiten (leer = alle faelligen)"
         required: false
@@ -17,6 +21,11 @@ on:
         description: "Eintrag sofort posten (nur zusammen mit id)"
         type: boolean
         default: false
+      video_upload:
+        description: "Reels: auto (URL, bei Fehler Resumable-Upload), url oder resumable"
+        type: choice
+        options: [auto, url, resumable]
+        default: auto
 
 permissions:
   contents: write
@@ -28,7 +37,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30   # Reels: Container-Verarbeitung dauert bis zu 15 Min.
     steps:
       - uses: actions/checkout@v4
 
@@ -38,17 +47,24 @@ jobs:
 
       - name: Faellige Posts veroeffentlichen
         env:
+          # Pro Account ein Secret. Neuer Account: Zeile ergaenzen (Name wie token_secret in accounts.json).
+          # Fehlt ein Secret, ist die Variable leer und nur dieser Account wird uebersprungen.
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_TOKEN_SAFESLOT: ${{ secrets.IG_TOKEN_SAFESLOT }}
           IG_USER_ID: ${{ vars.IG_USER_ID }}
           GRAPH_VERSION: ${{ vars.GRAPH_VERSION }}
+          INPUT_ACCOUNT: ${{ inputs.account }}
           INPUT_ID: ${{ inputs.id }}
+          INPUT_UPLOAD: ${{ inputs.video_upload }}
           INPUT_DRY: ${{ inputs.dry_run }}
           INPUT_NOW: ${{ inputs.ignore_time }}
         run: |
           args=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             [ "$INPUT_DRY" = "true" ] && args="$args --dry-run"
+            [ -n "$INPUT_ACCOUNT" ] && args="$args --account $INPUT_ACCOUNT"
             [ -n "$INPUT_ID" ] && args="$args --id $INPUT_ID"
+            [ -n "$INPUT_UPLOAD" ] && args="$args --video-upload $INPUT_UPLOAD"
             [ "$INPUT_NOW" = "true" ] && args="$args --ignore-time"
           fi
           python scripts/publish.py $args

@@ -24,7 +24,12 @@ jobs:
 
       - name: Insights abrufen
         env:
+          # Pro Account ein Secret (Namen wie token_secret in accounts.json).
+          # Fehlt eines, wird nur dieser Account uebersprungen.
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_TOKEN_SAFESLOT: ${{ secrets.IG_TOKEN_SAFESLOT }}
+          IG_USER_ID: ${{ vars.IG_USER_ID }}
+          GRAPH_VERSION: ${{ vars.GRAPH_VERSION }}
         run: python scripts/fetch_insights.py
 
       - name: Aenderungen committen

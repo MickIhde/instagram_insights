@@ -1,0 +1,15 @@
+{
+  "accounts": [
+    {
+      "name": "agentur",
+      "ig_user_id": "17841480902982254",
+      "token_secret": "IG_TOKEN",
+      "mirror_data_to_root": true
+    },
+    {
+      "name": "safeslot",
+      "ig_user_id": "",
+      "token_secret": "IG_TOKEN_SAFESLOT"
+    }
+  ]
+}
